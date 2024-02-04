@@ -10,7 +10,7 @@ Uses the TweetNaCl-js implementaion of Salsa20 and Poly1305 for encryption and S
 
 Github page with usage instructions: https://hash-and-sign.github.io/hash-and-crypt.html
 
-<h4>Security notes</h4>
+### Security notes
   <p>The above HTML page, once served to your computer, has no further communication
   with the server or any other entity. No cookies or local data storage are created when
   the pages run in your browser. Therefore, secret data exist only temporarily within
