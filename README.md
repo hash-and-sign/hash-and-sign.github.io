@@ -1,8 +1,14 @@
-## hash-and-sign.github.io
+## hash-and-sign
 Digitally sign text using a mnemonic seed.
 Uses the TweetNaCl-js implementaion of Ed25519 DSA (Digital Signature Algorithm) and SHA-512 for hashing the mnemonic seed.
 
 Github page with usage instructions: https://hash-and-sign.github.io
+
+## hash-and-crypt
+Simple encryption using a mnemonic seed.
+Uses the TweetNaCl-js implementaion of Salsa20 and Poly1305 for encryption and SHA-512half for hashing the seed.
+
+Github page with usage instructions: https://hash-and-sign.github.io/hash-and-crypt.html
 
 <h4>Security notes</h4>
   <p>The above HTML page, once served to your computer, has no further communication
@@ -21,10 +27,8 @@ Github page with usage instructions: https://hash-and-sign.github.io
   </ul>
   <p>TweetNaCl.js was ported from <a href="http://tweetnacl.cr.yp.to/">TweetNaCl</a> / <a href="http://nacl.cr.yp.to/">NaCl.</a></p>
 
-### Sister sites
-<ul>
-<li>https://hash-and-crypt.github.io
-<li>https://hash-and-sign.github.io
-<li>https://shared-secret.github.io
-</ul>
+### Sister site
+https://shared-secret.github.io
+
+
 
